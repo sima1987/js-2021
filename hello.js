@@ -3,6 +3,19 @@ time = time +1000
 var message = "Bine ai venit!"
 var isLate = false
 
+if (isLate) {
+    alert("Go home")
+    
+}
+
+if (isLate) {
+alert("GO home")
+    
+} else {
+    alert("Continue")
+    
+}
+
 setTimeout(welcome, time)
 
 function welcome() {
