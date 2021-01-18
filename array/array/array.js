@@ -36,4 +36,11 @@ fruits.forEach(fruit => {
     
 });
 
+//variata noua de cod for-in//
+for (const fruit in fruits) {
+    let listItem = document.createElement("li")
+    listItem.innerText =  fruit
+    document.querySelector ("ul").appendChild(listItem)
+        
+}
 
